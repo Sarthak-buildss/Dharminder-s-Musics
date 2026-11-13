@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="dharminder_brand_background">#081426</color>
     <!--
         Cold-start / splash background only — Compose paints everything after the first frame.
 
@@ -10,7 +11,7 @@
         neutral grey at that tone. Letting it follow the system instead gave dark-theme users a
         white flash on light-mode devices.
     -->
-    <color name="simpmusic_cold_start_background">#FF131313</color>
+    <color name="simpmusic_cold_start_background">#FF081426</color>
 
     <style name="Theme.SimpMusic" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/simpmusic_cold_start_background</item>
